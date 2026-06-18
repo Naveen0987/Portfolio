@@ -73,7 +73,7 @@ GitHub:
 https://github.com/Naveen0987
 
 LinkedIn:
-(Add your LinkedIn URL)
+https://www.linkedin.com/in/naveen-ch-705965240/
 
 ---
 
