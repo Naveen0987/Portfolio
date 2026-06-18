@@ -42,7 +42,7 @@ const Navbar = () => {
 
       </nav>
 
-      <a href="/resume.pdf" className="resume-btn">
+      <a href="/Naveen_Resume.pdf" className="resume-btn">
         Resume
       </a>
 <ThemeToggle/>
