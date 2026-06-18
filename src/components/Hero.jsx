@@ -55,7 +55,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/Naveen_Resume.pdf"
+            href="/resume.pdf"
             className="secondary-btn"
             download
           >
