@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+:root{
+
+  --bg:#050816;
+
+  --card:#111827;
+
+  --text:#ffffff;
+
+  --secondary:#94a3b8;
+
+  --primary:#2563eb;
+
+}
+
+body[data-theme="light"]{
+
+  --bg:#ffffff;
+
+  --card:#f3f4f6;
+
+  --text:#111827;
+
+  --secondary:#475569;
+
+  --primary:#2563eb;
+
+}
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    overflow-x:hidden;
+
+    transition:
+        background-color .35s ease,
+        color .35s ease;
+}
+
+a{
+
+    color:inherit;
+
+}
+
+/* ===========================
+   Scroll Reveal
+=========================== */
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(80px);
+
+    transition:all .8s ease;
+
+}
+
+.reveal.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+/* ===========================
+      CUSTOM SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:var(--bg);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#1d4ed8;
+
+}
+/* ===========================
+      TEXT SELECTION
+=========================== */
+
+::selection{
+
+    background:#2563eb;
+
+    color:#fff;
+
+}
