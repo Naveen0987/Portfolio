@@ -1,80 +1,126 @@
 # 🚀 Naveen Ch - Portfolio Website
 
-A modern, responsive personal portfolio website built using React and Vite. This portfolio showcases my projects, skills, experience, and provides a contact form powered by EmailJS.
+A modern, responsive personal portfolio website built using **React**, **Vite**, and **EmailJS**. This portfolio showcases my skills, projects, experience, and provides an easy way to connect with me through a working contact form.
+
+---
 
 ## 🌐 Live Demo
 
-Coming Soon...
+🔗 **Portfolio:**  
+https://naveen098-portfolio.vercel.app/
+
+---
 
 ## ✨ Features
 
 - 🌙 Dark & Light Theme
 - 📱 Fully Responsive Design
-- ⚡ Smooth Animations
+- ⚡ Smooth Scroll & Animations
 - 📧 Contact Form with EmailJS
 - 📄 Resume Download
-- 💼 Project Showcase
-- 🧑 About Me Section
+- 💼 Featured Projects Section
+- 🧑 About Me
 - 🛠 Skills & Experience Timeline
+- 🎨 Modern UI Design
+
+---
 
 ## 🛠 Tech Stack
 
-- JavaScript
-- HTML5
-- CSS3
+### Frontend
 - React
 - Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Services
 - EmailJS
-- Git & GitHub
+
+### Tools
+- Git
+- GitHub
+- Vercel
+
+---
 
 ## 📂 Project Structure
 
-```
+```text
 src/
-components/
-assets/
-pages/
-services/
-hooks/
+├── assets/
+├── components/
+├── hooks/
+├── pages/
+├── services/
+├── App.jsx
+└── main.jsx
 ```
 
-## 🚀 Run Locally
+---
 
-Clone the project
+## 🚀 Getting Started
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/portfolio.git
+git clone https://github.com/Naveen0987/Portfolio.git
 ```
 
-Install dependencies
+### Navigate to the Project
+
+```bash
+cd Portfolio
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Start development server
+### Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-Build production
+### Build for Production
 
 ```bash
 npm run build
 ```
 
+---
+
+## 📸 Preview
+
+Visit the live website:
+
+👉 **https://naveen098-portfolio.vercel.app/**
+
+
 ## 📧 Contact
 
-Email:
-**naveennaveengoud10@gmail.com**
+**Name:** Naveen Ch
 
-GitHub:
+📧 Email: **naveennaveengoud10@gmail.com**
+
+🐙 GitHub:  
 https://github.com/Naveen0987
 
-LinkedIn:
+💼 LinkedIn:  
 https://www.linkedin.com/in/naveen-ch-705965240/
+
+🌐 Portfolio:  
+https://naveen098-portfolio.vercel.app/
 
 ---
 
-⭐ If you like this project, consider giving it a star.
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub!
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
