@@ -4,6 +4,7 @@ import Background from "./components/Background";
 import useScrollReveal from "./hooks/useScrollReveal";
 import ScrollProgress from "./components/ScrollProgress";
 import ScrollToTop from "./components/ScrollToTop";
+import { FaWhatsapp } from "react-icons/fa";
 
 function App() {
   useScrollReveal();
