@@ -117,4 +117,39 @@ a{
 }
 
 
+.whatsapp-btn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
 
+    width:65px;
+    height:65px;
+
+    border-radius:50%;
+
+    background:#25D366;
+
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:36px;
+
+    text-decoration:none;
+
+    box-shadow:0 8px 25px rgba(37,211,102,.45);
+
+    z-index:9999;
+
+    transition:.3s;
+}
+
+.whatsapp-btn:hover{
+
+    transform:scale(1.12);
+
+    box-shadow:0 12px 35px rgba(37,211,102,.6);
+
+}
